@@ -22,7 +22,13 @@ This Python script checks the creation date of snapshots listed in a JSON file (
 ## Usage
 
 1. **Prepare the JSON File**:
-   - Ensure you have a `snapshots.json` file in the same directory as the script. This file should contain snapshot data in the following format:
+   - You can retrieve the JSON data using the `doctl` command line tool. Run the following command to get the list of snapshots and save it to a file named `snapshots.json`:
+
+     ```bash
+     doctl compute snapshot list --output json > snapshots.json
+     ```
+
+   - Ensure the `snapshots.json` file is in the same directory as the script. The file should contain snapshot data in the following format:
 
      ```json
      [
@@ -103,3 +109,7 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 This script uses the following libraries:
 - [Requests](https://docs.python-requests.org/en/master/): HTTP library for Python.
+
+## Contact
+
+If you wish to learn more about DigitalOcean's services, you are welcome to reach out to the sales team at [sales@digitalocean.com](mailto:sales@digitalocean.com). A global team of talented engineers will be happy to provide assistance.
