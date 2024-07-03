@@ -1,0 +1,28 @@
+[
+    {
+      "id": "129721643",
+      "name": "opnsense-lon1-01-1680180362752",
+      "resource_id": "348280077",
+      "resource_type": "droplet",
+      "regions": [
+        "lon1",
+        "ams3"
+      ],
+      "min_disk_size": 50,
+      "size_gigabytes": 2.96,
+      "created_at": "2023-03-30T12:46:04Z"
+    },
+    {
+      "id": "141692420",
+      "name": "outl-lon1-01 2023-10-04",
+      "resource_id": "375470875",
+      "resource_type": "droplet",
+      "regions": [
+        "lon1",
+        "ams3"
+      ],
+      "min_disk_size": 80,
+      "size_gigabytes": 2.07,
+      "created_at": "2023-10-04T04:56:58Z"
+    }
+]
